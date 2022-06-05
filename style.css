@@ -1,0 +1,52 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+	background-color:white;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.logo {
+    width:80px ;
+    height: 44.52px;
+    margin-top: 28px;
+    margin-left: 80px;
+}
+
+.header {
+    height: 1080px;
+    width: 0 auto
+}
+
+.initials {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:210px;
+    
+}
+
+div, p, input, button, span, a, ul, li {
+	
+
+}
+
+.phrase {
+    width: 790px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    padding-top: 50px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.wrapper {
+    font-weight:lighter;
+    text-align: center;
+    display: block;
+    justify-content: center; 
+    margin-top: 200px;
+}
