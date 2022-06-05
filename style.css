@@ -26,12 +26,10 @@
     display: flex;
     justify-content: center;
     margin-top:210px;
-    
 }
 
 div, p, input, button, span, a, ul, li {
 	box-sizing: border-box;
-
 }
 
 .phrase {
@@ -49,11 +47,18 @@ div, p, input, button, span, a, ul, li {
     display: block;
     justify-content: center; 
     margin-top: 200px;
+    
 }
 
 .hands-scr {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.container-head {
     height: 1080px;
-    width: 1920px;
+    width: 100% auto;
 }
 
 /* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
