@@ -13,9 +13,13 @@
     margin-left: 80px;
 }
 
-.header {
-    height: 1080px;
+.container-head {
+    height: 0 auto;
     width: 0 auto;
+}
+
+.container-sec-scr {
+   padding-top: 22.3em;
 }
 
 .initials {
@@ -39,6 +43,7 @@ div, p, input, button, span, a, ul, li {
     padding-top: 50px;
     font-weight: normal;
     margin: 0 auto;
+    
 }
 
 .wrapper {
@@ -46,19 +51,13 @@ div, p, input, button, span, a, ul, li {
     text-align: center;
     display: block;
     justify-content: center; 
-    margin-top: 200px;
+    margin-top: 130px;
     
 }
 
 .hands-scr {
     max-width: 100%;
     height: auto;
-    
-}
-
-.container-head {
-    height: 1080px;
-    width: 100% auto;
 }
 
 /* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
