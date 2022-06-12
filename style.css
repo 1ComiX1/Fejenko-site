@@ -16,7 +16,6 @@
 .container-head {
     display: block;
     height: 100vh;
-    
 }
 
 .container-sec-scr {
@@ -69,7 +68,6 @@ div, p, input, button, span, a, ul, li {
 }
 
 .section3 {
-    padding: 30px;
     justify-content: center; 
     text-align: center;
     display: block;
@@ -82,11 +80,12 @@ div, p, input, button, span, a, ul, li {
 }
 
 .pattern {
-    width: 100vh;
+    width: 100vw;
     height: 371.89px;
     background-size:cover;
     background-image:url(/img/pattern.svg) ;
     background-repeat:repeat-x;
+    border: 30px solid white;
 }
  .about {
      justify-content: center;
