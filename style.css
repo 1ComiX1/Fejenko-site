@@ -21,12 +21,25 @@
 
 .container-sec-scr {
     height: 100vh;
-    background-size: cover;
-    background: url(/img/water.jpg);
+    background-size: contain;
+    background-image: url(/img/water.jpg);
+    background-attachment: fixed;      
 }
 
 .container-body {
    height: 100vh;
+}
+
+div, p, input, button, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+.wrapper {
+    text-align: center;
+    display: block;
+    justify-content: center; 
+    margin-top: 240px;
+    margin-bottom: 444px;
 }
 
 .initials {
@@ -42,12 +55,7 @@
     
 }
 
-div, p, input, button, span, a, ul, li {
-	box-sizing: border-box;
-}
-
 .phrase {
-    
     font-family: 'Raleway', sans-serif;
     font-size: 55px;
     padding-top: 50px;
@@ -60,25 +68,34 @@ div, p, input, button, span, a, ul, li {
     display: block;
 }
 
-.wrapper {
-    
+.section3 {
+    padding: 30px;
+    justify-content: center; 
     text-align: center;
     display: block;
-    justify-content: center; 
-    margin-top: 240px;
-    margin-bottom: 444px;
-   
+    position: absolute;
+}
+
+.container-about {
+    
     
 }
 
-.hands-scr {
-    max-width: 100%;
-    height: auto;
+.pattern {
+    width: 100vh;
+    height: 371.89px;
+    background-size:cover;
+    background-image:url(/img/pattern.svg) ;
+    background-repeat:repeat-x;
 }
+ .about {
+     justify-content: center;
+     text-align: center;
+ }
 
-.section {
 
-}
+
+
 
 /* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
