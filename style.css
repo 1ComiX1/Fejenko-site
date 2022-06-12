@@ -80,11 +80,11 @@ div, p, input, button, span, a, ul, li {
 }
 
 .pattern {
-    width: 100vw;
-    height: 43vh;
+    width: 98.7vw;
+    height: 371.89px;
     background-size:cover;
-    background-image:url(/img/pattern2.png) ;
-    background-repeat:no-repeat;
+    background-image:url(/img/pattern.svg) ;
+    background-repeat:repeat-x;
     border: 30px solid white;
 }
  .about {
