@@ -4,6 +4,7 @@
 	background-color:white;
 	padding: 0;
 	margin: 0;
+    
 }
 
 .logo {
@@ -20,7 +21,7 @@
 
 /* second screen first background */
 .container-sec-scr {
-    width: 100vw;
+    width: 100%;
     height: 59vh;
     background-size: contain;
     background-image: url(/img/water.jpg);
@@ -28,7 +29,7 @@
 }
 
 .container-body {
-   height: 100vh;
+  
 }
 
 div, p, input, button, span, a, ul, li {
@@ -83,7 +84,7 @@ div, p, input, button, span, a, ul, li {
 
 /* second sreen second background  */
 .pattern {
-    width: 100vw;
+    width: 100%;
     height: 41vh;
     background-size: cover;
     background-image: url(/img/pattern2.png);
