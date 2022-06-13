@@ -18,11 +18,13 @@
     height: 100vh;
 }
 
+/* second screen first background */
 .container-sec-scr {
-    height: 100vh;
+    width: 100vw;
+    height: 59vh;
     background-size: contain;
     background-image: url(/img/water.jpg);
-    background-attachment: fixed;      
+    background-attachment:scroll;      
 }
 
 .container-body {
@@ -79,17 +81,22 @@ div, p, input, button, span, a, ul, li {
     
 }
 
+/* second sreen second background  */
 .pattern {
-    width: 98.7vw;
-    height: 371.89px;
-    background-size:cover;
-    background-image:url(/img/pattern.svg) ;
-    background-repeat:repeat-x;
+    width: 100vw;
+    height: 41vh;
+    background-size: cover;
+    background-image: url(/img/pattern2.png);
+    background-repeat: repeat-x;
     border: 30px solid white;
+    position: relative;
+    overflow: hidden;
+    
 }
  .about {
      justify-content: center;
      text-align: center;
+     font-family: 'Raleway', sans-serif;
  }
 
 
