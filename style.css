@@ -28,6 +28,7 @@
 }
 
 .container-body {
+
 }
 
 div, p, input, button, span, a, ul, li {
@@ -67,18 +68,6 @@ div, p, input, button, span, a, ul, li {
     display: block;
 }
 
-.section3 {
-    justify-content: center; 
-    text-align: center;
-    display: block;
-    position: absolute;
-}
-
-.container-about {
-    
-    
-}
-
 /* second sreen second background  */
 .pattern {
     width: 100%;
@@ -102,7 +91,7 @@ div, p, input, button, span, a, ul, li {
  }
 
  .name {
-    position: absolute;
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -111,7 +100,6 @@ div, p, input, button, span, a, ul, li {
     /* identical to box height */
     font-variant: small-caps;
     margin-top: 85px;
-    
     
  }
 
@@ -125,11 +113,22 @@ div, p, input, button, span, a, ul, li {
     /* or 22px */
     font-variant: small-caps;
     margin-top: 130px;
-  
     text-align: left;
  }
 
+ .section3 {
+  display: block;
+   ;
+   height:
+}
 
+ .pictures1 {
+   
+ }
+
+ .pictures2 {
+  
+}
 
 
 /* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
