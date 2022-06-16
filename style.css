@@ -13,6 +13,10 @@
     margin-left: 80px;
 }
 
+.cap{
+    line-height: 0;
+}
+
 .container-head {
     display: block;
     height: 100vh;
@@ -116,18 +120,12 @@ div, p, input, button, span, a, ul, li {
     text-align: left;
  }
 
- .section3 {
-  display: block;
-   ;
-   height:
-}
-
- .pictures1 {
-   
+  .pictures1 {
+   line-height: 0;
  }
 
  .pictures2 {
-  
+    line-height: 0;
 }
 
 
