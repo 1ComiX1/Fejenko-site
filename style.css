@@ -128,6 +128,11 @@ div, p, input, button, span, a, ul, li {
     line-height: 0;
 }
 
+.section4 {
+    width: 100%;
+    height:387px;
+}
+
 
 /* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
