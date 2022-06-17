@@ -135,6 +135,7 @@ div, p, input, button, span, a, ul, li {
     text-align: left;
  }
 
+ /* pictures block */
 .pictures1 {
     line-height: 0;
  }
@@ -143,15 +144,48 @@ div, p, input, button, span, a, ul, li {
     line-height: 0;
 }
 
+/* fourth block */
 .section4 {
     width: 100%;
     height:387px;
-    text-align: left;
     justify-content: center;
 }
+ /* text format */
+.slant {
+    padding-left: 510px;
+    padding-top: 120px;
+    text-align: left
+}
 
+.join {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
 
-/* Тестирую сброс всех отсупов от границ */
+.quetly {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    
+    font-variant: small-caps;
+}
+
+.performance {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    font-variant: small-caps;
+}
+
+/* сброс всех отсупов от границ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
