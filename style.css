@@ -38,7 +38,7 @@
 
 .container-head {
     display: block;
-    height: 100vh;
+    height: 100%;
 }
 
 /* second screen first background */
@@ -50,10 +50,6 @@
     background-attachment:scroll;      
 }
 
-.container-body {
-
-}
-
 div, p, input, button, span, a, ul, li {
 	box-sizing: border-box;
 }
@@ -62,8 +58,8 @@ div, p, input, button, span, a, ul, li {
     text-align: center;
     display: block;
     justify-content: center; 
-    margin-top: 300px;
-    margin-bottom: 444px;
+    height: 100vh;
+    padding-top: 340px;
 }
 
 .initials {
@@ -150,10 +146,12 @@ div, p, input, button, span, a, ul, li {
 .section4 {
     width: 100%;
     height:387px;
+    text-align: left;
+    justify-content: center;
 }
 
 
-/* Тестирую сброс всех отсупов от границ. сайт: https://meyerweb.com/eric/tools/css/reset/ */
+/* Тестирую сброс всех отсупов от границ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
