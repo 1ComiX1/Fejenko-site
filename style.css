@@ -152,7 +152,7 @@ div, p, input, button, span, a, ul, li {
 }
  /* text format */
 .view {
-    padding-left: 320px;
+    padding-left: 350px;
     padding-top: 120px;
     text-align: left
 }
@@ -194,7 +194,7 @@ div, p, input, button, span, a, ul, li {
 
 /* fifth block text */
 .stages {
-    padding-left: 320px;
+    padding-left: 350px;
     padding-top: 350px;
     text-align: left;
 }
