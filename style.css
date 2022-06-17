@@ -151,8 +151,8 @@ div, p, input, button, span, a, ul, li {
     justify-content: center;
 }
  /* text format */
-.slant {
-    padding-left: 510px;
+.view {
+    padding-left: 320px;
     padding-top: 120px;
     text-align: left
 }
@@ -172,7 +172,6 @@ div, p, input, button, span, a, ul, li {
     font-size: 24px;
     line-height: 130%;
     /* or 31px */
-    
     font-variant: small-caps;
 }
 
@@ -184,6 +183,48 @@ div, p, input, button, span, a, ul, li {
     line-height: 130%;
     font-variant: small-caps;
 }
+
+/* fifth block */
+.section5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/stages.png);
+    background-size: cover;
+}
+
+/* fifth block text */
+.stages {
+    padding-left: 320px;
+    padding-top: 350px;
+    text-align: left;
+}
+
+p.stages-header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 30px;
+}
+
+p.stages-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+p.stages-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
 
 /* сброс всех отсупов от границ */
 html, body, div, span, applet, object, iframe,
