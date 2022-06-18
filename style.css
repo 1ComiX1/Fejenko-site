@@ -135,6 +135,7 @@ div, p, input, button, span, a, ul, li {
     text-align: left;
  }
 
+ 
  /* pictures block */
 .pictures1 {
     line-height: 0;
@@ -152,7 +153,7 @@ div, p, input, button, span, a, ul, li {
 }
  /* text format */
 .view {
-    padding-left: 350px;
+    padding-left: 380px;
     padding-top: 120px;
     text-align: left
 }
@@ -194,7 +195,7 @@ div, p, input, button, span, a, ul, li {
 
 /* fifth block text */
 .stages {
-    padding-left: 350px;
+    padding-left: 380px;
     padding-top: 350px;
     text-align: left;
 }
@@ -206,6 +207,8 @@ p.stages-header {
     font-size: 32px;
     line-height: 38px;
     padding-bottom: 30px;
+   
+    
 }
 
 p.stages-name {
@@ -223,6 +226,168 @@ p.stages-text {
     font-size: 16px;
     line-height: 130%;
 }
+
+/* sixth block */
+.section6 {
+    width: 100%;
+    height: 450px;
+    
+}
+
+.list {
+    margin-top: 130px;
+    padding-left: 380px;
+    height: 300px;
+}
+
+span.indent {
+    margin-bottom: 20px; /* костыль для нижнего отсутпа пункта "Услуги" */
+    display: flex;
+}
+
+.list-text_first {
+    justify-content: space-between;
+    width: 1102px;
+    display:flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    padding-bottom: 25px;
+    
+}
+
+.list-text_second {
+    justify-content: space-between;
+    width: 1102px;
+    display:flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    /* border-bottom: 1.8px solid black;
+    height: 24px; */
+}
+
+
+
+/* list undedrline */
+.list-logotypes {
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+.list-presentations {
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+.list-content {
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+.list-identity {
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+span.list-infographics {
+    margin-right: 7px;
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+.list-offline_advertising {
+    margin-right: 155px;
+    border-bottom: 1.8px solid black;
+    height: 24px;
+}
+
+/* services links */
+.services {
+    text-decoration:none;
+    color: #666
+}
+
+/* button  brif*/
+.button-enroll {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.9663px;
+    line-height: 27px;
+    width: 396.99px;
+	height: 73px; 
+    padding-top: 21px;
+    background-color: white;
+	color: black;
+	border-radius: 100px;
+	display: block;
+	text-align: center;
+	text-decoration:none;
+	text-transform:uppercase;
+    border: 2px solid black;
+	display: flex;
+    justify-content: center;
+	/* transition: all 0.5s ease; */
+	cursor: pointer;
+    margin-left: 725px;
+}
+
+/* seventh block */
+.section7 {
+    width: 100%;
+    height: 500px;
+}
+
+.info-contacts {
+    padding-left: 380px;
+    
+}
+
+p.contacts{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 30px;
+}
+
+p.respond {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.cooperation {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+span.coop {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;  
+}
+
+
+
+
+
+
+
 
 
 
