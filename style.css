@@ -207,8 +207,6 @@ p.stages-header {
     font-size: 32px;
     line-height: 38px;
     padding-bottom: 30px;
-   
-    
 }
 
 p.stages-name {
@@ -413,7 +411,7 @@ span.tg {
 }
 
 .call {
-    padding-right: 450px;
+    padding-right: 740px;
    padding-top: 135px;
 
 }
@@ -425,8 +423,6 @@ span.tg {
     font-size: 24px;
     line-height: 100%;
     display: flex;
-    
-    
 }
 
 .mobilenumber {
@@ -451,14 +447,100 @@ span.tg {
 .footer {
     width: 100%;
     height: 400px;
+    display: block;
 }
 
-.capfooteer {
+.capfooter {
+    padding-top: 79.01px;
+    padding-left: 380px;
+    display: flex;
+}
+
+.logofooter {
+    display: block;
+    width: 100px;
+    height: 54.97px;
+}
+
+.indentfooter {
+    padding-left: 161px;
     
 }
 
-.logofooter
+.socials {
+    line-height: 0;
+    display:flex;
+    padding-left: 380px;
+    padding-top: 22.02px;
+}
 
+.socialsfooter {
+    line-height: 0;
+    display:flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 24px;
+}
+
+span.initials_footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;   
+    display: flex;
+    padding-left: 380px;
+    padding-top: 10px;
+}
+
+p.stages_footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    opacity: 0.4;
+    text-transform: uppercase;
+}
+
+.footerlist-text_first {
+    justify-content: space-between;
+    width: 1102px;
+    display:flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    color: #000000;
+    opacity: 0.4;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.footerlist-text_second {
+    justify-content: space-between;
+    width: 1102px;
+    display:flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    color: #000000;
+    opacity: 0.4;
+}
+
+.footerlist-offline_advertising {
+    padding-right: 97px;
+}
+
+.footerlist-infographics {
+    padding-right: 5px;
+}
 
 
 
