@@ -342,11 +342,18 @@ span.list-infographics {
 .section7 {
     width: 100%;
     height: 500px;
+    
+}
+
+.main-contacts {
+    justify-content: space-between;
+    display: flex;
 }
 
 .info-contacts {
+    width: 800px;
     padding-left: 380px;
-    
+    display: block;
 }
 
 p.contacts{
@@ -364,6 +371,7 @@ p.respond {
     font-weight: 300;
     font-size: 24px;
     line-height: 130%;
+    padding-bottom: 11px;
 }
 
 .cooperation {
@@ -380,17 +388,82 @@ span.coop {
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;  
+    display: flex;
 }
 
+span.writeme {
+    padding-top: 14px;
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+
+span.mailto {
+    display: flex;
+    
+}
+
+span.mailto:hover {
+    
+}
+
+span.tg {
+    padding-top: 10px;
+    display: flex;
+}
+
+.call {
+    padding-right: 450px;
+   padding-top: 135px;
+
+}
+
+.makecall {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    
+    
+}
+
+.mobilenumber {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    margin-top: 14px;
+}
+
+.phonenumber {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+}
+
+.capfooteer {
+    
+}
+
+.logofooter
 
 
 
 
 
-
-
-
-
+/* https://t.me/fejenko */
 /* сброс всех отсупов от границ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
