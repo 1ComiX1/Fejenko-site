@@ -467,7 +467,7 @@ span.tg {
 
 .socials {
     line-height: 0;
-    display:flex;
+    display:block;
     padding-left: 380px;
     padding-top: 22.02px;
 }
@@ -555,6 +555,49 @@ p.stages_footer {
     padding-left: 170px;
 }
 
+p.contacts_footer {
+    padding-bottom: 7px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.contacts_footer-wrapper {
+    padding-left: 170px;
+}
+
+.catalogue {
+    line-height: 30px;
+    list-style: none;
+}
+
+.services-wrapper {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    color: #000000;
+    opacity: 0.4;
+}
+
+.footerlist-presentations {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    color: #000000;
+    opacity: 0.4;
+}
 
 
 
