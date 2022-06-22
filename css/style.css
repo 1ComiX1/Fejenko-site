@@ -6,6 +6,10 @@
 	margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .logo {
     width:70px ;
     height: 38.96px;
@@ -46,7 +50,7 @@
     width: 100%;
     height: 59vh;
     background-size: cover;
-    background-image: url(img/polygon.jpg);
+    background-image: url(../img/polygon.jpg);
     background-attachment:scroll;      
 }
 
@@ -183,7 +187,7 @@ div, p, input, button, span, a, ul, li {
 .section5 {
     width: 100%;
     height: 100vh;
-    background-image: url(img/stages.png);
+    background-image: url(../img/stages.png);
     background-size: cover;
 }
 
@@ -443,6 +447,8 @@ span.tg {
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+
+/* Footer */
 .footer {
     width: 100%;
     height: 400px;
@@ -467,9 +473,8 @@ span.tg {
 
 .socials {
     line-height: 0;
-    display:block;
+    display:flex;
     padding-left: 380px;
-    padding-top: 22.02px;
 }
 
 .socialsfooter {
@@ -504,7 +509,7 @@ p.stages_footer {
 
 .footerlist-text_first {
     justify-content: space-between;
-    width: 1102px;
+    width: 739px;
     display:flex;
     font-family: 'Raleway';
     font-style: normal;
@@ -516,12 +521,12 @@ p.stages_footer {
     opacity: 0.4;
     padding-top: 15px;
     padding-bottom: 8px;
-    width: 500px;
+   
 }
 
 .footerlist-text_second {
     justify-content: space-between;
-    width: 1102px;
+    width: 739px;
     display:flex;
     font-family: 'Raleway';
     font-style: normal;
@@ -531,7 +536,7 @@ p.stages_footer {
     /* or 19px */
     color: #000000;
     opacity: 0.4;
-     width: 500px;
+   
 }
 
 .footerlist-offline_advertising {
@@ -588,7 +593,7 @@ p.contacts_footer {
     opacity: 0.4;
 }
 
-.footerlist-presentations {
+.footerlist-email {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
