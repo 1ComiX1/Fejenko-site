@@ -372,7 +372,7 @@ p.respond {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 130%;
     padding-bottom: 11px;
 }
@@ -381,7 +381,7 @@ p.respond {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 130%;
     padding-bottom: 13px;
     
@@ -432,7 +432,7 @@ span.tg {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 130%;
     display: flex;
     margin-top: 14px;
