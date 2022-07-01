@@ -12,6 +12,7 @@
 	background-color:white;
 	padding: 0;
 	margin: 0;
+
 }
 
 .container {
@@ -33,7 +34,7 @@
     width: 100%;
     height: 80px;
     display: flex;
-    flex-direction: row;
+    z-index: 2;
     position: fixed;
 }
 
@@ -45,6 +46,9 @@
     align-content: center;
     flex-wrap:wrap;
     justify-content: space-between;
+    background: #fff;
+    z-index: 100;
+    
 }
 
 .logo {
@@ -56,6 +60,7 @@
     width: 70px;
     height: 38.96px;
     padding-left: 60px;
+    
 }
 // header end
 
@@ -193,6 +198,10 @@ span.price_block_name {
     opacity: 0.4;
     padding-bottom: 49px;
     padding-right:990px;
+
+    h2 {
+        z-index: 1;
+    }
 }
 
 .concept {
@@ -238,6 +247,28 @@ padding-top: 8px;
     color: #000000;
     line-height: 190%;
 }
+//second section end
+
+//third section start
+.pictures_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 360px;
+    }
+}
+
+
+
+
+
+   
+
 
 
 
