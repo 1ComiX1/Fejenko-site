@@ -264,6 +264,33 @@ padding-top: 8px;
     }
 }
 
+.pictures_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 44vh;
+        
+    }
+}
+
+@media (min-width:1920px) {
+    
+    .pictures_block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    
+    .container {
+        height: 45vh;
+    }
+}
+}
 
 
 
