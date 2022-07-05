@@ -9,7 +9,7 @@
 
 .container {
   box-sizing: border-box;
-  width: 1530px;
+  width: 1534px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -97,12 +97,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.price_block .identy {
-  display: grid;
-}
-.price_block .identy h2 {
-  display: grid;
 }
 
 .price_block_identity {
@@ -238,9 +232,106 @@ h4.concept_header {
   flex-wrap: nowrap;
 }
 .pictures_block .container img {
-  width: 640px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.services_block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.services_block .price_block_name {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 49px;
+  justify-content: left;
+  width: 1163px;
+}
+.services_block .price_block_name span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.4;
+}
+.services_block .container {
+  flex-direction: column;
+  width: 1534px;
+  height: 496px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 65px;
+}
+.services_block .container .price {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+}
+.services_block .container .price span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+}
+.services_block .container .price h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.count_block {
+  align-items: center;
+  display: flex;
+  padding-top: 11px;
+  width: 150px;
+  justify-content: space-between;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  /* or 30px */
+}
+
+.block1 {
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+  width: 1111px;
+  justify-content: space-between;
+  padding-right: 52px;
+}
+.block1 p {
+  line-height: 130%;
+}
+
+.price_block1_lh {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.price_block1_lh p {
+  line-height: 0;
+}
+
+.price_block2_lh {
+  display: flex;
+  padding-top: 10px;
 }
 
 /* сброс всех отсупов от границ */
