@@ -334,6 +334,30 @@ h4.concept_header {
   padding-top: 10px;
 }
 
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.owl-carousel img {
+  height: 44vh;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+}
+
+.owl-stage {
+  display: flex;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owl-nav {
+  display: none;
+}
+
 /* сброс всех отсупов от границ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

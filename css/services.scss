@@ -395,11 +395,38 @@ h4.concept_header {
 }
 //fourth section end
 
+//fifth section start (carousel)
 
+.carousel {
+    width: 100%;
+    height: 100%;
+    
+}
 
+.owl-carousel {
+    
 
+    img {
+        height: 44vh;
+        width: 100%;
+        // flex-flow: row nowrap;
+        object-fit: contain;
+        display: flex;
+    }
+}
 
+.owl-stage {
+    display: flex;
+   
+}
 
+.owl-dots {
+ display: none;
+}
+
+.owl-nav {
+    display: none;
+}
 
 
 
