@@ -242,37 +242,33 @@ h4.concept_header {
 
 //third section start
 .pictures_block {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
 
     .container {
-        flex-wrap: nowrap;
-        width: 100%;
-        height: 44vh;
         
-    }
-}
-
-.pictures_block {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-
-    .container {
-        flex-wrap: nowrap;
-       
-
         img {
-            width: 100%; 
-            height: 100%; 
-            object-fit: cover; 
+            
         }
         
     }
 }
+
+// .pictures_block {
+//     width: 100%;
+//     height: 100%;
+//     justify-content: center;
+
+//     .container {
+//         flex-wrap: nowrap;
+//         object-fit: contain;
+
+//         img {
+//             width: 100%; 
+//             height: 100%; 
+//             object-fit: contain; 
+//         }
+        
+//     }
+// }
 
 //third section end
 
@@ -398,27 +394,31 @@ h4.concept_header {
 //fifth section start (carousel)
 
 .carousel {
+    display: flex;
     overflow: hidden;
+
+    .container {
+        display: block;
+        width: 100%;
+    }
 }
 
 .owl-carousel {
     background-color:rgb(153,153,153);
+    display: flex;
 
     img {
         width: 100%;
-        height: 348.75px;
-        object-fit: contain;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
 .owl-item {
     margin-top: 30px;
     margin-bottom: 30px;
-    overflow: hidden;
     box-sizing: border-box;
     display: flex;
-    
-    
 }
 
 .owl-stage {
