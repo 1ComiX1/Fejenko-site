@@ -104,7 +104,6 @@
         </div>
     </section>
     <section class="carousel">
-        <div class="responsiveClass">
             <div class="owl-carousel">
                 <div> <img src="img/carouselslide1.png" alt=""> </div>
                 <div> <img src="img/carouselslide2.png" alt=""> </div>
@@ -120,10 +119,17 @@
         
             <script>
             $(document).ready(function(){
-                $(".owl-carousel").owlCarousel();
+                $(".owl-carousel").owlCarousel({
+                    items:2,
+                    margin:30,
+                    loop:true,
+                    stagePadding: 200,
+                    startPosition:6,
+                    nav:false,
+                    responsive: false,
+                });
             });
             </script>
-        </div>
     </section>
 
 
