@@ -243,33 +243,15 @@ h4.concept_header {
 //third section start
 .pictures_block {
 
-    .container {
-        
+    .pics_res {
+
         img {
-            
+            float: left;
+            width: 33.3%;
+            height: 100%;
         }
-        
     }
 }
-
-// .pictures_block {
-//     width: 100%;
-//     height: 100%;
-//     justify-content: center;
-
-//     .container {
-//         flex-wrap: nowrap;
-//         object-fit: contain;
-
-//         img {
-//             width: 100%; 
-//             height: 100%; 
-//             object-fit: contain; 
-//         }
-        
-//     }
-// }
-
 //third section end
 
 //fourth section start 
