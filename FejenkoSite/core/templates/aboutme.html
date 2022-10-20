@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FEJENKO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <link rel="stylesheet" href="{% static 'css/aboutme.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/shortcuticon.png' %}" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="logo header__img" src="{% static 'img/logo.svg' %}" alt="logo">
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">
+            <div class="menu__container">
+                <nav class="menu__list">
+                    <ul>
+                        <li><a class="menu__link" href="{% url 'core:index' %}">Главная</a></li>
+                        <li><a class="menu__link" href="{% url 'core:services' %}">Услуги и стоимость</a></li>
+                        <li><a class="menu__link" href="#">Оставить заявку</a></li>
+                        <li><a class="menu__link" href="{% url 'core:portfolio' %}">Портфолио</a></li>
+                        <li><a class="menu__link menu__link--gray">Обо мне</a></li>
+                    </ul>
+                </nav>
+                <div class="socials menu__socials">
+                    <div class="socials__list">
+                        <a href="https://www.instagram.com/fejenko/" target="_blank">
+                            <img src="{% static 'img/instagram_logo.svg' %}" alt="instagram logo">
+                        </a>
+                        <a href="https://t.me/fejenko" target="_blank">
+                            <img src="{% static 'img/telegram.svg' %}" alt="telegram logo">
+                        </a>
+                    </div>
+                    <div class="socials__list">
+                        <a href="https://www.behance.net/fejenko" target="_blank">
+                            <img src="{% static 'img/behance_logo.svg' %}" alt="behance logo">
+                        </a>
+                        <a href="https://dribbble.com/fejenko" target="_blank">
+                            <img src="{% static 'img/dribbble_logo.svg' %}" alt="dribble logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="container_name">Евгений Вышегородцев, бренд-дизайнер</div>
+                <div class="container_cost"> <p>Обо мне</p> </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume">
+        <div class="container resume__container">
+            <div class="resume__about">
+                <div class="title resume__title">
+                    <h2>
+                        Меня зовут Евгений Вышегородцев
+                    </h2>
+                </div>
+                <div class="subtitle resume__subtitle resume__subtitle_padding-updown">
+                    Я графический дизайнер, специализируюсь на услугах для 
+                    <br>бизнеса и фирменных стилях. 2 года решаю задачи проектов 
+                    <br>разных категорий рынка – занимаюсь разработкой графических 
+                    <br>материалов для присутствия компаний (проектов) в сети.
+                </div>
+                <div class="subtitle resume__subtitle resume__subtitle_padding-down">
+                    В канале <a class="subtitle__link" href="https://t.me/creactivedesign" target="_blank">creactivedesign→ </a>делюсь своими наработками и пишу
+                    <br>про дизайн. Иногда участвую в конкурсах и делаю работы для 
+                    <br>вдохновения. Стараюсь быть в курсе современных трендов отрасли.
+                </div>
+                <div class="subtitle resume__subtitle resume__subtitle_padding-down">
+                    Совершенствую дизайнерские навыки в Bang bang education,
+                    <br>а навыки проведения анализа и аудита – в НИ ТПУ.
+                </div>
+                <div class="subtitle resume__subtitle resume__subtitle_padding-down">
+                    Помогу найти вашему бренду визуальное воплощение.
+                </div>
+                <div class="resume__qualification resume__qualification_padding-updown">
+                    <p>
+                        <span class="resume__qualification_bold">Образование</span> – высшее техническое (НИ ТПУ, «Инноватика»)
+                    </p>
+                    <p>
+                        <span class="resume__qualification_bold">Опыт</span> работы – 2 года
+                    </p>
+                    <p>
+                        <span class="resume__qualification_bold">Локация</span> – Томск, Россия (GMT +07:00)
+                    </p>
+                </div>
+                <div class="link resume__link">
+                    <a href="#" target="_blank"> 
+                        <img src="{% static 'img/instagram_logo.svg' %}" alt=""> 
+                    </a>
+                    <a href="#" target="_blank"> 
+                        fejenko→
+                    </a>
+                </div>
+            </div>
+            <div class="resume__picture">
+                <img src="{% static 'img/fejenkoFace.png' %}" alt="">
+                <div class="resume__link resume__link_thin-moved">
+                    <p>
+                        Резюме <span class="resume__link_dim">(Pdf)</span> – <a href="#" target="_blank">скачать</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my_contacts_block">
+        <div class="container">
+            <div class="my_contacts_wrapper">
+                <div class="contacts_block">
+                    <div class="contacts">Контакты</div>
+                    <div class="for_cooperation">Для сотрудничества</div>
+                    <div class="emailtg">fejenko.design@yandex.ru <br>или <a href=https://t.me/fejenko target="_blank">Telegram→</a></div>
+                    <div class="anwser">Отвечу в течение одного дня.</div>
+                </div>
+                <div class="callback_block">
+                    <div class="callback_text">Позвонить</div>
+                    <div class="callback_phone">Мобильный номер <br>+7 (913) 114-67-07</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <div class="footer__logo-big">
+                    <a class="footer__link" href="services.html">
+                        <img class="contain" src="{% static 'img/logo.svg' %}" alt="">
+                    </a>
+                </div>
+                <div class="footer__logo-small">
+                    <a class="footer__link" href="https://t.me/fejenko" target="_blank">
+                        <img src="{% static 'img/telegram.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://www.behance.net/fejenko" target="_blank">
+                        <img src="{% static 'img/behance_logo.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://dribbble.com/fejenko" target="_blank">
+                        <img src="{% static 'img/dribbble_logo.svg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__list-first">
+                <div class="footer__title">
+                    <h2>
+                        Услуги
+                    </h2>
+                </div>
+                <div class="footer__subtitle footer__subtitle_row">
+                    <ul>
+                        <li>
+                            Логотип
+                        </li>
+                        <li>
+                            Фирменный стиль
+                        </li>
+                        <li>
+                            Презентация
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            Инфографика
+                        </li>
+                        <li>
+                            Контент для социальных сетей
+                        </li>
+                        <li>
+                            Офлайн-реклама
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer__list-second">
+                    <div class="footer__title">
+                        <h2>
+                            Контакты
+                        </h2>
+                    </div>
+                    <div class="footer__subtitle footer__subtitle_column">
+                         <ul class="footer__subtitle-list-first">  <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <span class="footer__subtitle_bold">+7 (913) 114-67-07</span>
+                            </li>
+                            <li>
+                                <a href="https://t.me/fejenko" target="_blank">
+                                    Telegram →
+                                </a> 
+                            </li>
+                            <li>
+                                fejenko.design@yandex.ru
+                            </li>
+                            <li>
+                                Самозаянтый Е. Д. Вышегородцев
+                                <br>№15559032 от 15.06.2022
+                            </li>
+                        </ul>
+                        <ul class="footer__subtitle-list-second"> <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <a href="confidentiality.html">Политика конфиденциальности</a> 
+                            </li>
+                            <li>
+                                © 2022, Е. Д. Вышегородцев
+                            </li>
+                        </ul>
+                </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"> 
+    </script>
+    <script src="{% static 'js/defaultScripts.js' %}"></script> 
+</body>
