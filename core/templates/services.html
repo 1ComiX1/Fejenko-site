@@ -303,13 +303,13 @@
                     {% csrf_token %}
                     <div class="entry_field_block">
                         <div class="feedback_form_name">
-                            <textarea id="name_input" inputmode="name" type="text" name="client_name" placeholder="Ваше имя" required></textarea>
+                            <textarea id="name_input" maxlength="48" inputmode="name" type="text" name="client_name" placeholder="Ваше имя" required></textarea>
                         </div>
                         <div class="feedback_form_phone">
                             <input id="tel_input" type="tel" name="client_phone_number" placeholder="     Ваш телефон" required>
                         </div>
                         <div class="feedback_form_description">
-                            <textarea id="text_input" type="text" name="task_brief" placeholder="Краткое описание задачи" required></textarea>
+                            <textarea id="text_input" maxlength="400" type="text" name="task_brief" placeholder="Краткое описание задачи" required></textarea>
                         </div>
                     </div>
                     <div class="form_submission_block">
