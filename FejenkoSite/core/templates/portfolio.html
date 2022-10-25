@@ -23,11 +23,11 @@
             <div class="menu__container">
                 <nav class="menu__list">
                     <ul>
-                        <li><a class="menu__link" href="{% static 'index.html' %}">Главная</a></li>
-                        <li><a class="menu__link" href="services.html">Услуги и стоимость</a></li>
+                        <li><a class="menu__link" href="{% url 'core:index' %}">Главная</a></li>
+                        <li><a class="menu__link" href="{% url 'core:services' %}">Услуги и стоимость</a></li>
                         <li><a class="menu__link" href="#">Оставить заявку</a></li>
                         <li><a class="menu__link menu__link--gray">Портфолио</a></li>
-                        <li><a class="menu__link" href="{% static 'aboutme.html' %}">Обо мне</a></li>
+                        <li><a class="menu__link" href="{% url 'core:aboutme' %}">Обо мне</a></li>
                     </ul>
                 </nav>
                 <div class="socials menu__socials">
