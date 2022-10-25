@@ -11,7 +11,7 @@ from .scripts import scripts
 
 # telebot settings
 bot = telebot.TeleBot("5753443599:AAH1PcN3hGdvzF4oSeuPnsorZXzFOpF_d-M", parse_mode=None)
-owner_id = "226372957"
+owner_id = "430388437"
 
 # View of index page
 def index(request):
@@ -101,12 +101,13 @@ def error_504(request, exception):
 # ----------------------------------------------------------------
 # Telebot functions
 def format_data(data: FeedbackModel):
-    formated_data = f"Заказ номер: {data.client_id}\n" \
-                    f"Имя клиента: {data.client_name}\n" \
-                    f"Запрошенные услуги: {checkboxes_to_str(data)}\n" \
-                    f"Описание задания:\n" \
-                    f"{data.task_brief}\n" \
-                    f"Время заказа: {data.task_timestamp}\n"
+    formated_data = f"*Заказ номер*: {data.client_id}\n" \
+                    f"*Имя клиента*: {data.client_name}\n" \
+                    f"*Телефонный номер*: `{data.client_phone_number}`\n" \
+                    f"*Запрошенные услуги*: {checkboxes_to_str(data)}\n\n" \
+                    f"*Описание задания*:\n" \
+                    f"{data.task_brief}\n\n" \
+                    f"*Время заказа*: {data.task_timestamp.strftime('%Y-%m-%d %H:%M')}\n"
 
     return formated_data
 
@@ -138,4 +139,4 @@ def checkboxes_to_str(data: FeedbackModel):
 
 def send_data(data_pk):
     data = FeedbackModel.objects.get(client_id=data_pk)
-    bot.send_message(owner_id, format_data(data))
+    bot.send_message(owner_id, format_data(data), parse_mode='Markdown')

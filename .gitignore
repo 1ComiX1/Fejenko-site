@@ -1,8 +1,10 @@
 /.idea
 /Lib
+
 /pyvenv.cfg
 /secure.ini
+/db.sqlite3
 
-/FejenkoSite/core/__pycache__
+__pycache__
 
 .DS_Store
