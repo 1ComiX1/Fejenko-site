@@ -1,5 +1,6 @@
 /Lib
 /pyvenv.cfg
+/secure.ini
 
 /FejenkoSite/core/__pycache__
 
