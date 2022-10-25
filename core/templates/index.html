@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FEJENKO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/shortcuticon.png' %}" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+       <div class="header__logo">
+            <img class="logo header__img" src="{% static 'img/logo.svg' %}" alt="logo">
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">
+            <div class="menu__container">
+                <nav class="menu__list">
+                    <ul>
+                        <li><a class="menu__link menu__link--gray">Главная</a></li>
+                        <li><a class="menu__link" href="{% url 'core:services' %}">Услуги и стоимость</a></li>
+                        <li><a class="menu__link" href="#">Оставить заявку</a></li>
+                        <li><a class="menu__link" href="{% url 'core:portfolio' %}">Портфолио</a></li>
+                        <li><a class="menu__link" href="{% url 'core:aboutme' %}">Обо мне</a></li>
+                    </ul>
+                </nav>
+                <div class="socials menu__socials">
+                    <div class="socials__list">
+                        <a href="https://www.instagram.com/fejenko/" target="_blank">
+                            <img src="{% static 'img/instagram_logo.svg' %}" alt="instagram logo">
+                        </a>
+                        <a href="https://t.me/fejenko" target="_blank">
+                            <img src="{% static 'img/telegram.svg' %}" alt="telegram logo">
+                        </a>
+                    </div>
+                    <div class="socials__list">
+                        <a href="https://www.behance.net/fejenko" target="_blank">
+                            <img src="{% static 'img/behance_logo.svg' %}" alt="behance logo">
+                        </a>
+                        <a href="https://dribbble.com/fejenko" target="_blank">
+                            <img src="{% static 'img/dribbble_logo.svg' %}" alt="dribble logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="scrollup">
+        <!-- Иконка fa-chevron-up (Font Awesome) -->
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="container_name">Евгений Вышегородцев, бренд-дизайнер</div>
+                <div class="container_cost"> <p>Помогаю брендам найти <br>своё визуальное воплощение</p> </div>
+            </div>
+        </div>
+    </section>
+    <section class="background_block">
+            <img src="{% static 'img/polygon.jpg'%}">
+    </section>
+    <section class="name">
+        <div class="container name__container">
+            <div class="name__text">
+                <div class="name__title">
+                    Евгений Вышегородцев
+                </div>
+                <div class="name__subtitle">
+                    Я графический дизайнер, специализируюсь на услугах для бизнеса и фирменных стилях. 
+                    <br>2 года я решаю задачи проектов разных категорий рынка – занимаюсь разработкой 
+                    <br>графических материалов для присутствия компаний (проектов) в сети.
+                </div>
+            </div>
+            <div class="name__link">
+                <a href="aboutme.html">
+                    Обо мне→
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="work_examples_block">
+        <div class="pictures-block">
+            <div class="design-card">
+                <a href="#" >
+                  <img class="blog__img" src="{% static 'img/designer_logo_pic1.png' %}" />
+                </a>
+                <div class="blog__text">
+                    Брендинг контент-агентства
+                   <a class="blog__link" href="https://dribbble.com/shots/19550154-Marketing-agency-logotype" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+            <div class="design-card">
+                <a href="#">
+                  <img class="blog__img" src="{% static 'img/poster_design_pic2.png' %}" />
+                </a>
+                <div class="blog__text">
+                    Айдентика лесозаготовительной компании
+                   <a class="blog__link" href="https://dribbble.com/shots/19526775-Lumber-company-logo" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+            <div class="design-card">
+                <a href="#">
+                  <img class="blog__img" src="{% static 'img/shop_identy_pic3.png '%}" />
+                </a>
+                <div class="blog__text">
+                    Визуальная стратегия бизнес-инкубатора
+                   <a class="blog__link" href="https://dribbble.com/shots/19526339-Poster-design-marketing-strategy" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+        </div>
+        <div class="pictures-block">
+            <div class="design-card">
+                <a href="#">
+                  <img class="blog__img" src="{% static 'img/InstaShopBlock.png' %}" />
+                </a>
+                <div class="blog__text">
+                    Визуальный стиль инста-магазина
+                   <a class="blog__link" href="https://dribbble.com/shots/19526157-Logo-of-the-ecoproduction-store" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+            <div class="design-card">
+                <a href="#">
+                  <img class="blog__img" src="{% static 'img/philologist_logo_pic5.png' %}" />
+                </a>
+                <div class="blog__text">
+                    Айдентика производственной компании
+                   <a class="blog__link" href="https://dribbble.com/shots/19526530-Research-and-production-company-logotype" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+            <div class="design-card">
+                <a href="#">
+                  <img class="blog__img" src="{% static 'img/business_straregy_pic6.png' %}" />
+                </a>
+                <div class="blog__text">
+                    Брендинг магазина косметики
+                   <a class="blog__link" href="https://dribbble.com/shots/19550286-Paper-bag-design" target="_blank">
+                       <button class="blog__link-btn">Открыть</button>
+                   </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="approach">
+        <div class="container approach__container">
+            <div class="approach__block">
+                <div class="approach__title">
+                    Подход
+                </div>
+                <div class="approach__subtitle approach__subtitle--large">
+                    Безспешки, внимательно
+                </div>
+                <div class="approach__subtitle">
+                    Работая над вашей задачей, я в первую очередь сфокусируюсь
+                    <br>на качестве результата, а не на скорости его достижения.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work-stages">
+        <div class="container work-stages__container">
+            <div class="work-stages__wrapper">
+                <h2 class="section-header section-header_padding-bottom">
+                    Этапы работы
+                </h2>
+                <div class="text-block">
+                    <h3 class="subtitle subtitle_padding-bottom">
+                        Брифинг
+                    </h3>
+                    <p class="text text_padding-bottom">
+                        Знакомимся. Изучаю ваш запрос и уточняю детали.
+                        <br>Задаю много вопросов, чтобы учесть все ваши пожелания
+                        <br>и избежать лишних ошибок при разработке дизайна.
+                    </p>
+                </div>
+                <div class="text-block">
+                    <h3 class="subtitle subtitle_padding-bottom">
+                        Анализ
+                    </h3>
+                    <p class="text text_padding-bottom text_size">
+                        Изучение. После утверждения технического задания и подписания 
+                        <br>договора, изучаю специфику и особенности вашего бренда (сегмента 
+                        <br>рынка). Собираю мудборд, подбираю референсы. Снова встречаемся
+                        <br>и уточняем ваши пожелания по разработке концепций дизайна.
+                    </p>
+                </div>
+                <div class="text-block">
+                    <h3 class="subtitle subtitle_padding-bottom">
+                        Разработка решения
+                    </h3>
+                    <p class="text">
+                        Графическая работа. Делаю дизайн, провожу его презентацию, 
+                        <br>работаю с вашими возражениями и вношу правки в разработку. 
+                        <br>Результат работы передаю во всех необходимых форматах.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services_block">
+        <div class="container">
+            <div class="services_wrapper_block">
+                <div class="services_fcolumn_block">
+                    <div class="services_header"><a href="{% url 'core:services">Услуги</a></div>
+                    <div class="services_link_f"><a href="#">Логотипы</a></div>
+                    <div class="services_link_s">Айдентика</div>
+                </div>
+                <div class="services_scolumn_block">
+                    <div class="services_link_f">Презентации</div>
+                    <div class="services_link_s">Инфографика</div>
+                </div>
+                <div class="services_tcolumn_block">
+                    <div class="services_link_f">Контент для социальных сетей</div>
+                    <div class="services_link_s">Офлайн-реклама</div> 
+                </div>
+            </div>
+            <div class="services_button_block">
+                <div class="services_button">
+                    <button class="btn_services">
+                        Записаться на брифинг
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my_contacts_block">
+        <div class="container">
+            <div class="my_contacts_wrapper">
+                <div class="contacts_block">
+                    <div class="contacts">Контакты</div>
+                    <div class="for_cooperation">Для сотрудничества</div>
+                    <div class="emailtg">fejenko.design@yandex.ru <br>или <a href="https://t.me/fejenko" target="_blank">Telegram→</a></div>
+                    <div class="anwser">Отвечу в течение одного дня.</div>
+                </div>
+                <div class="callback_block">
+                    <div class="callback_text">Позвонить</div>
+                    <div class="callback_phone">Мобильный номер <br>+7 (913) 114-67-07</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <div class="footer__logo-big">
+                    <a class="footer__link" href="services.html">
+                        <img class="contain" src="{% static 'img/logo.svg' %}" alt="">
+                    </a>
+                </div>
+                <div class="footer__logo-small">
+                    <a class="footer__link" href="https://t.me/fejenko" target="_blank">
+                        <img src="{% static 'img/telegram.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://www.behance.net/fejenko" target="_blank">
+                        <img src="{% static 'img/behance_logo.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://dribbble.com/fejenko" target="_blank">
+                        <img src="{% static 'img/dribbble_logo.svg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__list-first">
+                <div class="footer__title">
+                    <h2>
+                        Услуги
+                    </h2>
+                </div>
+                <div class="footer__subtitle footer__subtitle_row">
+                    <ul>
+                        <li>
+                            Логотип
+                        </li>
+                        <li>
+                            Фирменный стиль
+                        </li>
+                        <li>
+                            Презентация
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            Инфографика
+                        </li>
+                        <li>
+                            Контент для социальных сетей
+                        </li>
+                        <li>
+                            Офлайн-реклама
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer__list-second">
+                    <div class="footer__title">
+                        <h2>
+                            Контакты
+                        </h2>
+                    </div>
+                    <div class="footer__subtitle footer__subtitle_column">
+                         <ul class="footer__subtitle-list-first">  <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <span class="footer__subtitle_bold">+7 (913) 114-67-07</span>
+                            </li>
+                            <li>
+                                <a href="https://t.me/fejenko" target="_blank">
+                                    Telegram →
+                                </a> 
+                            </li>
+                            <li>
+                                fejenko.design@yandex.ru
+                            </li>
+                            <li>
+                                Самозаянтый Е. Д. Вышегородцев
+                                <br>№15559032 от 15.06.2022
+                            </li>
+                        </ul>
+                        <ul class="footer__subtitle-list-second"> <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <a href="{% url 'core:confidentiality' %}">Политика конфиденциальности</a> 
+                            </li>
+                            <li>
+                                © 2022, Е. Д. Вышегородцев
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"> 
+    </script>
+    <script src="{% static 'js/defaultScripts.js' %}"> </script> 
+    <script src="{% static 'js/scrollup/indexScrollup.js' %}"></script> 
+    <!-- <script src="js/testButtonScrol.js"></script>  -->
+</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FEJENKO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <link rel="stylesheet" href="{% static 'css/services.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/shortcuticon.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'owl-carousel/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'owl-carousel/owl.theme.default.min.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="logo header__img" src="{% static 'img/logo.svg' %}" alt="logo">
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">
+            <div class="menu__container">
+                <nav class="menu__list">
+                    <ul>
+                        <li><a class="menu__link" href="{% url 'core:index' %}">Главная</a></li>
+                        <li><a class="menu__link menu__link--gray">Услуги и стоимость</a></li>
+                        <li><a class="menu__link" href="#">Оставить заявку</a></li>
+                        <li><a class="menu__link" href="{% url 'core:portfolio' %}">Портфолио</a></li>
+                        <li><a class="menu__link" href="{% url 'core:aboutme' %}">Обо мне</a></li>
+                    </ul>
+                </nav>
+                <div class="socials menu__socials">
+                    <div class="socials__list">
+                        <a href="https://www.instagram.com/fejenko/" target="_blank">
+                            <img src="{% static 'img/instagram_logo.svg' %}" alt="instagram logo">
+                        </a>
+                        <a href="https://t.me/fejenko" target="_blank">
+                            <img src="{% static 'img/telegram.svg' %}" alt="telegram logo">
+                        </a>
+                    </div>
+                    <div class="socials__list">
+                        <a href="https://www.behance.net/fejenko" target="_blank">
+                            <img src="{% static 'img/behance_logo.svg' %}" alt="behance logo">
+                        </a>
+                        <a href="https://dribbble.com/fejenko" target="_blank">
+                            <img src="{% static 'img/dribbble_logo.svg' %}" alt="dribble logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="scrollup">
+        <!-- Иконка fa-chevron-up (Font Awesome) -->
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="container_name">Евгений Вышегородцев, бренд-дизайнер</div>
+                <div class="container_cost"> <p>Услуги и стоимость</p> </div>
+            </div>
+        </div>
+    </section>
+    <section class="branding">
+        <div class="container branding__container">
+            <h2 class="section-header">
+                Брендинг
+            </h2>
+            <div class="branding__colums">  
+                <div class="branding__column-first">
+                    <div class="text-block">
+                        <h2 class="title">
+                            Фирменный стиль – 40 000 ₽  
+                        </h2>
+                        <h3 class="subtitle">
+                            Две концепции фирменного стиля
+                        </h3>
+                        <p class="text">
+                            Создание двух концепции фирменного стиля.
+                            <br>Чтобы послание бренда считывалось всегда.
+                        </p>
+                    </div>
+                    <div class="text-block">
+                        <h2 class="title">
+                            Только логотип – 12 000 ₽  
+                        </h2>
+                        <h3 class="subtitle">
+                            Три концепции логотипа
+                        </h3>
+                        <p class="text">
+                            Создание нового логотипа или обновлние текущего (рестайлинг).
+                            <br>Чтобы ваш бренд был узнаваемым.
+                        </p>
+                    </div>
+                </div>
+                <div class="branding__column-second">
+                    <div class="block">
+                        <h2  class="title">
+                            Что вы получите в итоге?
+                        </h2>
+                        <p class="text">
+                            Целостный фирменный стиль – фотостиль, графика, цвета, шрифты.
+                            <br>Понимание, как будет выглядеть ваш бренд – визуализация на носителях.
+                            <br>Логотип в двух версиях – полный, сокращённый.
+                            <br>Свод правил пользования фирменным стилем (гайдбук/брендбук).
+                        </p>
+                    </div>
+                    <div class="block">
+                        <h2  class="title">
+                            Что вы получите в итоге?
+                        </h2>
+                        <p class="text">
+                            Один итоговый уникальный логотип.
+                            <br>Визуализация логотипа на носителях – до пяти носителей.
+                            <br>Свод правил пользования логотипом (логобук).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pictures-block">
+        <div class="design-card">
+            <a href="#">
+                <img class="blog__img" src="{% static 'img/identysample.png' %}" />
+            </a>
+            <div class="blog__text">
+                Брендинг магазина косметики
+                <a class="blog__link" href="https://dribbble.com/shots/19550269-Cosmetics-store-logotype" target="_blank">
+                    <button class="blog__link-btn">Открыть</button>
+                </a> 
+            </div>
+        </div>
+        <div class="design-card">
+            <a href="#">
+                <img class="blog__img" src="{% static 'img/identysample2.png' %}"/>
+            </a>
+            <div class="blog__text">
+               Айдентика лесозаготовительной компании 
+               <a class="blog__link" href="https://dribbble.com/shots/19526798-Lumber-company-logotype-seal" target="_blank">
+                   <button class="blog__link-btn">Открыть</button>
+               </a>
+            </div>
+        </div>
+        <div class="design-card">
+            <a href="#">
+                <img class="blog__img" src="{% static 'img/identysample3.png' %}" />
+            </a>
+            <div class="blog__text">
+               Брендинг контент-агентства 
+               <a class="blog__link" href="https://dribbble.com/shots/19526866-Pins" target="_blank">
+                   <button class="blog__link-btn">Открыть</button>
+               </a>
+            </div>
+        </div>
+        <!-- img/identysample.png -->
+    </section>
+    <section class="companies-price"> 
+        <div class="container companies-price__container">
+            <h2 class="section-header">
+                Услуги для компаний
+            </h2>
+            <div class="companies-price_row-between">
+                <div class="text-block">
+                    <h2 class="title">
+                        Презентации – от 180 ₽ / слайд    
+                    </h2>
+                    <p class="text">
+                        Маркетинговые и информационные презентации.
+                        <br>Чтобы интересно и наглядно презентовать.
+                    </p>
+                    <p class="companies-price__icon">
+                        <img src="img/color.svg" alt=""> От десяти слайдов
+                    </p>
+                </div>
+                <div class="text-block">
+                    <h2 class="title">
+                        Инфографика – от 250 ₽ / слайд  
+                    </h2>
+                    <p class="text text_italics-bottom">
+                        Таблицы – графики – диаграммы – списки – схемы
+                        <br>таймлайны – блоки – стрелки – тексты – изображения
+                    </p>
+                    <p class="text">
+                        Чтобы показать большой объем информации доступно.
+                    </p>
+                    <p class="companies-price__icon">
+                        <img src="img/color.svg" alt=""> От трёх слайдов
+                    </p>
+                </div>
+            </div>
+            <div class="companies-price__slider">
+                <img src="{% static 'img/slider.svg' %}" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="owl-carousel">
+                <div> <img src="{% static 'img/carouselslide1.png' %}" alt="technical and economic indicators"> </div>
+                <div> <img src="{% static 'img/carouselslide2.png' %}" alt="printing development"> </div>
+                <div> <img src="{% static 'img/carouselslide3.png' %}"alt="market assessment"> </div>
+                <div> <img src="{% static 'img/carouselslide4.png' %}" alt="preparation of expert content"> </div>
+                <div> <img src="{% static 'img/carouselslide5.png' %}" alt="2019-2020"> </div>
+            </div>
+        </div>
+    </section>
+    <section class="companies-services"> 
+       <div class="container companies-services__container">
+            <div class="companies-services_row-between">
+                <div class="text-block">
+                    <h2 class="title">
+                        Контент для социальных сетей    
+                    </h2>
+                    <p class="text">
+                        Макеты публикаций в социальные сети вашего бренда.
+                        <br>Чтобы донести своё сообщение красиво.
+                    </p>
+                    <p class="companies-price__icon">
+                        <img src="{% static 'img/share_outline.svg' %}" alt=""> Единоразовое или постоянное сотрудничество
+                    </p>
+                </div>
+                <div class="text-block">
+                    <h2 class="title">
+                        Офлайн-реклама   
+                    </h2>
+                    <p class="text">
+                        Постеры – баннеры – визитки – прочая полиграфия
+                        <br>Чтобы быть не только в сети.
+                    </p>
+                    <p class="companies-price__icon">
+                        <img src="{% static 'img/path.svg' %}" alt=""> Стоимость зависит от задачи
+                    </p>
+                </div>
+            </div>
+       </div>
+    </section>
+    <section class="pictures-block">
+        <div class="design-card">
+            <a href="#">
+              <img class="blog__img" src="{% static 'img/posterdesign.png' %}" />
+            </a>
+            <div class="blog__text">
+               Контент для социальных сетей
+               <a class="blog__link" target="_blank" href="https://dribbble.com/shots/19526887-Social-media-design">
+                   <button class="blog__link-btn">Открыть</button>
+               </a>
+            </div>
+        </div>
+        <div class="design-card">
+            <a href="#">
+              <img class="blog__img" src="{% static 'img/businesscarddesign.png' %}" />
+            </a>
+            <div class="blog__text">
+               Дизайн афиши
+               <a class="blog__link" target="_blank" href="https://dribbble.com/shots/18617142-Poster-design">
+                   <button class="blog__link-btn">Открыть</button>
+               </a>
+            </div>
+        </div>
+        <div class="design-card">
+            <a href="#">
+              <img class="blog__img" src="{% static 'img/visualstrategy.png' %}" />
+            </a>
+            <div class="blog__text">
+               Дизайн визитки
+               <a class="blog__link" target="_blank" href="https://dribbble.com/shots/19526470-Business-card-design">
+                   <button class="blog__link-btn">Открыть</button>
+               </a>
+            </div>
+        </div>
+    </section>
+    <section class="approach">
+        <div class="container approach__container">
+            <div class="approach__block">
+                <div class="approach__title">
+                    Подход
+                </div>
+                <div class="approach__subtitle approach__subtitle--large">
+                    Без спешки, внимательно
+                </div>
+                <div class="approach__subtitle">
+                    Работая над вашей задачей, я в первую очередь сфокусируюсь
+                    <br>на качестве результата, а не на скорости его достижения.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback_form_block">
+        <div class="container">
+            <div class="feedback_form_block_wrapper">
+                <div class="feedback_block_text">
+                    Опишите ваш запрос, заполнив 
+                    <br>короткую форму. Я свяжусь с вами 
+                    <br>в течение одгого дня, чтобы обсудить 
+                    <br>проект и ответить на вопросы.
+                </div>
+                <form action="{% url 'core:services' %}" class="feedback_form", method="POST">
+                    {% csrf_token %}
+                    <div class="entry_field_block">
+                        <div class="feedback_form_name">
+                            <textarea id="name_input" inputmode="name" type="text" name="client_name" placeholder="Ваше имя" required></textarea>
+                        </div>
+                        <div class="feedback_form_phone">
+                            <input id="tel_input" type="tel" name="client_phone_number" placeholder="     Ваш телефон" required>
+                        </div>
+                        <div class="feedback_form_description">
+                            <textarea id="text_input" type="text" name="task_brief" placeholder="Краткое описание задачи" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form_submission_block">
+                        <div class="checkboxes">
+                            <div class="checkboxes_block_f">
+                                <input id="logotype_chbox" type="checkbox", name="checkbox" value="1">
+                                    <label for="logotype_chbox">Логотип</label>
+                                    <br>
+                                <input id="presentation_chbox" type="checkbox", name="checkbox" value="2">
+                                    <label for="presentation_chbox">Презентация</label>
+                                    <br>
+                                <input id="sncontent_chbox" type="checkbox", name="checkbox" value="3">
+                                    <label for="sncontent_chbox">Контент для соц.сетей</label>
+                                    <br>
+                            </div>
+                            <div class="checkboxes_block_s">
+                                <input id="identity_chbox" type="checkbox", name="checkbox" value="4">
+                                    <label for="identity_chbox">Айдентика</label>
+                                    <br>
+                                <input id="infographics_chbox" type="checkbox", name="checkbox" value="5">
+                                    <label for="infographics_chbox">Инфографика</label>
+                                    <br>
+                                <input id="advertising_chbox" type="checkbox", name="checkbox" value="6">
+                                    <label for="advertising_chbox">Офлайн-реклама</label>
+                            </div>
+                        </div>
+                        <div class="button_submit_block">
+                            <button type="submit">отправить</button> 
+                        </div>
+                        <p class="confidentiality">
+                            Нажимая кнопку «Отправить», вы соглашаетесь с <a href="{% url 'core:confidentiality' %}"><u>политикой конфиденциальности.</u></a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="my_contacts_block">
+        <div class="container">
+            <div class="my_contacts_wrapper">
+                <div class="contacts_block">
+                    <div class="contacts">Контакты</div>
+                    <div class="for_cooperation">Для сотрудничества</div>
+                    <div class="emailtg">fejenko.design@yandex.ru <br>или <a href=https://t.me/fejenko target="_blank">Telegram→</a></div>
+                    <div class="anwser">Отвечу в течение одного дня.</div>
+                </div>
+                <div class="callback_block">
+                    <div class="callback_text">Позвонить</div>
+                    <div class="callback_phone">Мобильный номер <br>+7 (913) 114-67-07</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <div class="footer__logo-big">
+                    <a class="footer__link" href="{% url 'core:services' %}">
+                        <img class="contain" src="{% static 'img/logo.svg' %}" alt="">
+                    </a>
+                </div>
+                <div class="footer__logo-small">
+                    <a class="footer__link" href="https://t.me/fejenko" target="_blank">
+                        <img src="{% static 'img/telegram.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://www.behance.net/fejenko" target="_blank">
+                        <img src="{% static 'img/behance_logo.svg' %}" alt="">
+                    </a>
+                    <a class="footer__link" href="https://dribbble.com/fejenko" target="_blank">
+                        <img src="{% static 'img/dribbble_logo.svg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__list-first">
+                <div class="footer__title">
+                    <h2>
+                        Услуги
+                    </h2>
+                </div>
+                <div class="footer__subtitle footer__subtitle_row">
+                    <ul>
+                        <li>
+                            Логотип
+                        </li>
+                        <li>
+                            Фирменный стиль
+                        </li>
+                        <li>
+                            Презентация
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            Инфографика
+                        </li>
+                        <li>
+                            Контент для социальных сетей
+                        </li>
+                        <li>
+                            Офлайн-реклама
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer__list-second">
+                    <div class="footer__title">
+                        <h2>
+                            Контакты
+                        </h2>
+                    </div>
+                    <div class="footer__subtitle footer__subtitle_column">
+                         <ul class="footer__subtitle-list-first">  <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <span class="footer__subtitle_bold">+7 (913) 114-67-07</span>
+                            </li>
+                            <li>
+                                <a href="https://t.me/fejenko" target="_blank">
+                                    Telegram →
+                                </a> 
+                            </li>
+                            <li>
+                                fejenko.design@yandex.ru
+                            </li>
+                            <li>
+                                Самозаянтый Е. Д. Вышегородцев
+                                <br>№15559032 от 15.06.2022
+                            </li>
+                        </ul>
+                        <ul class="footer__subtitle-list-second"> <!--TODO: ВЫЯСНИТЬ МОЖНО ЛИ ТАК ЗАПИСЫВАТЬ НАЗВАНИЯ ЭЛЕМЕНТА -->
+                            <li>
+                                <a href="{% url 'core:confidentiality' %}">Политика конфиденциальности</a> 
+                            </li>
+                            <li>
+                                © 2022, Е. Д. Вышегородцев
+                            </li>
+                        </ul>
+                </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"> 
+    </script>
+    <script src="{% static 'owl-carousel/owl.carousel.min.js' %}"></script> 
+    <script src="{% static 'js/carousel/carouselScript.js' %}"></script>
+    <script src="{% static 'js/feedback/maskedPhoneinput.js'%}"></script> 
+    <script src="{% static 'js/jquery.maskedinput-master/dist/jquery.maskedinput.min.js' %}"></script>
+    <script src="{% static 'js/defaultScripts.js' %}"></script> 
+    <script src="{% static 'js/scrollup/defaultScrollup.js' %}"></script>
+</body>
+</html>
